@@ -242,7 +242,7 @@ When enabled, any attack that is **resisted** triggers an automatic second-stage
 │  │  Adaptive gen   │    │  turn requests    │   │  realistic resp │ │
 │  └─────────────────┘    └────────┬─────────┘   └─────────────────┘  │
 │                                  │                                  │
-│                    ┌─────────────▼──────────────┐                   │
+│                    ┌─────────────▼─────────────-─┐                  │
 │                    │     Dual Detection Engine   │                  │
 │                    │                             │                  │
 │                    │  ┌──────────────────────┐   │                  │
