@@ -235,14 +235,14 @@ When enabled, any attack that is **resisted** triggers an automatic second-stage
 ┌─────────────────────────────────────────────────────────────────────┐
 │                       Scanner Engine (scanner.py)                   │
 │                                                                     │
-│  ┌─────────────────┐    ┌──────────────────┐   ┌─────────────────┐ │
+│  ┌─────────────────┐    ┌──────────────────┐   ┌─────────────────┐  │
 │  │  Attack Suites  │    │  Ollama API Client│   │  Demo Simulator │ │
 │  │  LLM01–LLM10    │───▶│  /api/chat        │   │  (no Ollama)    │ │
 │  │  Multi-turn     │    │  Single & multi-  │   │  Randomised     │ │
 │  │  Adaptive gen   │    │  turn requests    │   │  realistic resp │ │
-│  └─────────────────┘    └────────┬─────────┘   └─────────────────┘ │
+│  └─────────────────┘    └────────┬─────────┘   └─────────────────┘  │
 │                                  │                                  │
-│                    ┌─────────────▼──────────────┐                  │
+│                    ┌─────────────▼──────────────┐                   │
 │                    │     Dual Detection Engine   │                  │
 │                    │                             │                  │
 │                    │  ┌──────────────────────┐   │                  │
